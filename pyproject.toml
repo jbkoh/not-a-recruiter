@@ -1,0 +1,29 @@
+[project]
+name = "resumereviewer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jason Koh",email = "bk7749@gmail.com"}
+]
+readme = "README.md"
+packages = [
+    {include = "resumereviewer", from = "."},
+]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "haystack-ai (>=2.9.0,<3.0.0)",
+    "typer (>=0.15.1,<0.16.0)",
+    "pypdf (>=5.2.0,<6.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+pytest-dotenv = "^0.5.2"
