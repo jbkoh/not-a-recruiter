@@ -1,0 +1,10 @@
+{
+    "requirements": {
+        "python2years": "Require at least 2 years of Python professional experience. Make sure you don't get confused with educational experience"
+    },
+    "additional_context": [
+        "I have a high volume of applicants to screen, so please be selective. I expect 10% of applicants to pass this round."
+    ],
+    "resumes_dir": "./applicants",
+    "job_description": "./data/test-jd.pdf"
+}
